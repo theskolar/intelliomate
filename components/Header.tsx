@@ -6,13 +6,13 @@ import Link from "next/link";
 
 const Header = () => {
   return (
-    <header className="sticky top-0 z-50 border-b border-slate-800 bg-white  backdrop-blur">
+    <header className="sticky top-0 z-50 border-b border-slate-800 bg-black  backdrop-blur">
       <div className="container flex h-16 items-center justify-between">
         {/* <Link className="flex items-center gap-2"> */}
         {/* <img src="/logo3.jpg" alt="TIMS Logo" width={120} height={40} /> */}
         {/* </Link> */}
         <Link href="/">
-          <img src="/mainlogo.jpg" alt="logo" width={80} height={80} />
+          <img src="/mainlogo.jpg" alt="logo" className="w-auto h-16" />
         </Link>
         {/* <MainNav />
         <Button
