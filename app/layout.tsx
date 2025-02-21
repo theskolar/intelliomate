@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Head from "next/head";
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 
@@ -12,12 +13,6 @@ const geistMono = Geist_Mono({
   subsets: ["latin"],
 });
 
-export const metadata: Metadata = {
-  title: "Intelliomate",
-  description: "We are a service provider software company",
-  icon: "/mainlogo.jpg",
-};
-
 export default function RootLayout({
   children,
 }: Readonly<{
@@ -25,6 +20,10 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
+      <Head>
+        <title>Intelliomate</title>
+        <link rel="icon" href="/mainlogo-removebg-preview.png" />
+      </Head>
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased `}
       >
