@@ -10,13 +10,7 @@ const GpsTracking = () => {
   };
   return (
     <section
-      className="relative overflow-hidden py-20 p-4 bg-background dark:bg-background-dark"
-      style={{
-        backgroundImage: "url('/gpsmain.png')",
-        backgroundRepeat: 'no-repeat',
-        backgroundSize: 'auto 550px',
-        backgroundPosition: 'right center'
-      }}
+      className="relative overflow-hidden py-20 p-4 bg-background dark:bg-background-dark bg-none sm:bg-[url('/gpsmain.png')] sm:bg-no-repeat sm:bg-auto sm:bg-[550px] sm:bg-right-center"
     >
       <div className="container relative z-10">
         <div className="grid gap-8 lg:grid-cols-2 lg:gap-12 sm:grid-cols-1">
