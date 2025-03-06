@@ -37,24 +37,9 @@ const GpsTracking = () => {
               </Button>
             </div>
           </div>
-          <div className="relative mx-auto w-full max-w-lg lg:mx-0">
-            <div className="relative z-10 rounded-3xl p-8">
-              <div className="grid gap-6">
-                {/* <Image
-                src="#"
-                alt="GPS Tracking App Interface"
-                width={400}
-                height={800}
-                className="rounded-2xl shadow-2xl"
-              /> */}
-              </div>
-            </div>
-            <div className="absolute -right-20 top-1/2 h-72 w-72 -translate-y-1/2 rounded blur-3xl" />
-            <div className="absolute -left-20 top-0 h-72 w-72 rounded-full blur-3xl" />
-          </div>
         </div>
       </div>
-      <div className="absolute inset-0" />
+      {/* <div className="absolute inset-0" /> */}
     </section>
   );
 };
