@@ -1,27 +1,34 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  darkMode: ["class"],
+  darkMode: "class", // ✅ Corrected dark mode setup
   content: [
     "./pages/**/*.{js,ts,jsx,tsx}",
     "./components/**/*.{js,ts,jsx,tsx}",
     "./app/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    container: {
-      center: true,
-      padding: "2rem",
-      screens: {
-        "2xl": "1400px",
-      },
-    },
     extend: {
       colors: {
+        background: "#fff", // Light mode
+        "background-dark": "#000", // Dark mode
+
+        font: "grey",
+        heading: "#4237E0",
+
+        boxfont: "#000", // Light mode
+        "boxfont-dark": "#fff", // Dark mode
+
+        box: "#111827",
+        box2: "#50c878",
+
+        box3: "#fff", // Light mode
+        "box3-dark": "#000", // Dark mode
+
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",
         ring: "hsl(var(--ring))",
-        background: "hsl(var(--background))",
         foreground: "hsl(var(--foreground))",
-        bg: "#ffffff",
+
         primary: {
           DEFAULT: "hsl(var(--primary))",
           foreground: "hsl(var(--primary-foreground))",
@@ -64,24 +71,16 @@ module.exports = {
         sm: "calc(var(--radius) - 4px)",
       },
       fontFamily: {
-        poppins: ["Poppins", "sans-serif"], // Add your font here
+        poppins: ["Poppins"],
       },
       keyframes: {
         "accordion-down": {
-          from: {
-            height: 0,
-          },
-          to: {
-            height: "var(--radix-accordion-content-height)",
-          },
+          from: { height: 0 },
+          to: { height: "var(--radix-accordion-content-height)" },
         },
         "accordion-up": {
-          from: {
-            height: "var(--radix-accordion-content-height)",
-          },
-          to: {
-            height: 0,
-          },
+          from: { height: "var(--radix-accordion-content-height)" },
+          to: { height: 0 },
         },
         marquee: {
           "0%": { transform: "translateX(0%)" },

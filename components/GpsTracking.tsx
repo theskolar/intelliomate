@@ -10,16 +10,23 @@ const GpsTracking = () => {
   };
   return (
     <section
-      className="relative overflow-hidden py-20"
-      style={{ backgroundImage: "url('/gps-bg.webp')" }}
+      className="relative overflow-hidden py-20 p-4 bg-background dark:bg-background-dark"
+      style={{
+        backgroundImage: "url('/gpsmain.png')",
+        backgroundRepeat: 'no-repeat',
+        backgroundSize: 'auto 550px',
+        backgroundPosition: 'right center'
+      }}
     >
       <div className="container relative z-10">
         <div className="grid gap-8 lg:grid-cols-2 lg:gap-12 sm:grid-cols-1">
           <div className="flex flex-col justify-center">
-            <h1 className="mb-6 text-4xl font-bold leading-tight text-[white] sm:text-5xl lg:text-6xl">
-              GPS Tracking Software Development Company
+            <h1 className="mb-6 text-4xl font-bold leading-tight font-poppins text-boxfont dark:text-boxfont-dark sm:text-5xl lg:text-6xl">
+              <span style={{
+                color: '#50c878'
+              }}>GPS Tracking </span> Software Development Company
             </h1>
-            <p className="mb-8 text-lg text-[#fff]">
+            <p className="mb-8 text-lg dark:text-font  font-[550] font-poppins">
               GPS Tracking Software Development is changing how companies run,
               especially those that deal with shipping. Real-time location
               tracking, route optimization, and improved security let businesses
@@ -30,7 +37,7 @@ const GpsTracking = () => {
                 onClick={handleClick}
                 variant="outline"
                 size="lg"
-                className="min-w-[140px] bg-white hover:bg-white"
+                className="min-w-[140px] bg-[#ffd700] text-white hover:bg-[#ffd700]"
               >
                 Call now
               </Button>

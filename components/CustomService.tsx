@@ -39,22 +39,22 @@ export default function GPSTrackingServices() {
   ];
 
   return (
-    <div className="w-full bg-white">
-      <div className="bg-white max-w-7xl mx-auto py-12 px-4 sm:px-6 lg:px-8">
-        <h2 className="text-center text-[2rem] font-bold font-Poppins text-[#473bf0] mb-12">
-          Our Custom GPS Tracking App Development Services
+    <div className="w-full bg-background  dark:bg-background-dark">
+      <div className="max-w-7xl mx-auto py-12 px-4 sm:px-6 lg:px-8">
+        <h2 className="text-center text-[2rem] font-[500] font-Poppins text-boxfont dark:text-boxfont-dark mb-12">
+          Our Custom  <span style={{ color: '#50c878' }}>GPS Tracking App </span>Development Services
         </h2>
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-3 gap-6">
           {services.map((service, index) => (
             <div
               key={index}
-              className="bg-[#f3f4f6] shadow-md rounded-lg p-6 text-center border border-gray-200"
+              className="bg-box shadow-md rounded-lg p-6 text-center shadow-[0_0_8px_#473bf0]"
             >
               <div className="text-4xl mb-4">{service.icon}</div>
-              <h3 className="text-xl font-semibold text-[#473bf0] mb-2">
+              <h3 className="text-xl font-[500] font-poppins text-box3 mb-2">
                 {service.title}
               </h3>
-              <p className="text-gray-600 text-sm">{service.description}</p>
+              <p className="text-font  font-[400] font-poppins text-sm">{service.description}</p>
             </div>
           ))}
         </div>

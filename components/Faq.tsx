@@ -38,17 +38,23 @@ export default function FAQSection() {
   };
 
   return (
-    <div className="bg-white min-h-screen flex justify-center items-center px-4">
+    <div className="bg-background min-h-screen flex justify-center items-center px-4
+dark:bg-background-dark
+    ">
       <div className="max-w-2xl w-full">
-        <h2 className="mb-6 text-center text-[2rem] font-bold font-Poppins text-[#473bf0]">
-          Frequently Asked Questions
+        <h2 className="mb-6 text-center text-[2rem] font-bold font-Poppins text-boxfont
+dark:text-boxfont-dark
+          font-[400] font-poppins">
+          Frequently Asked <span style={{color:'#50c878'}}> Questions</span>
         </h2>
         <div className="space-y-4">
           {faqs.map((faq, index) => (
             <div key={index} className="border-b border-gray-300 pb-3">
               <button
                 onClick={() => toggleFAQ(index)}
-                className="flex justify-between w-full text-left items-center py-3 text-lg font-medium text-gray-700 transition-all duration-300 focus:outline-none"
+                className="flex justify-between w-full text-left items-center py-3 text-lg font-medium text-boxfont 
+dark:text-boxfont-dark
+                  font-[400] font-poppins transition-all duration-300 focus:outline-none"
               >
                 {faq.question}
                 <ChevronDown
@@ -62,7 +68,7 @@ export default function FAQSection() {
                   openIndex === index ? "max-h-40" : "max-h-0"
                 }`}
               >
-                <p className="text-gray-600 mt-2 px-2">{faq.answer}</p>
+                <p className="text-font  font-[400] font-poppins mt-2 px-2">{faq.answer}</p>
               </div>
             </div>
           ))}

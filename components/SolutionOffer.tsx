@@ -59,16 +59,20 @@ export default function SolutionsWeOffer() {
   ];
 
   return (
-    <div className="w-full bg-white">
+    <div className="w-full bg-background 
+dark:bg-background-dark
+    ">
       <div className="max-w-10xl mx-auto p-6">
-        <h2 className="mb-6 text-center text-[2rem] font-bold font-Poppins text-[#473bf0]">
+        <h2 className="mb-6 text-center text-[2rem]  font-Poppins text-boxfont 
+dark:text-boxfont-dark
+          font-[400] font-poppins">
           Solutions We Offer
         </h2>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-2">
           {solutions.map((solution, index) => (
             <div
               key={index}
-              className="p-6 bg-[#f3f4f6] shadow-md rounded-lg flex items-start space-x-4 border hover:shadow-lg transition"
+              className="p-6 bg-box shadow-md rounded-lg flex items-start space-x-4 border border-[#473bf0] hover:shadow-lg transition"
             >
               <img
                 src={solution.icon}
@@ -76,10 +80,10 @@ export default function SolutionsWeOffer() {
                 className="w-12 h-12"
               />
               <div>
-                <h3 className="text-lg font-semibold text-[#473bf0]">
+                <h3 className="text-lg  text-box3  font-[400] font-poppins">
                   {solution.title}
                 </h3>
-                <p className="text-sm text-gray-600 mt-2">
+                <p className="text-sm font-[400] font-poppins text-font">
                   {solution.description}
                 </p>
               </div>

@@ -32,7 +32,9 @@ const handleClick = () => {
 
 const RecentBlogs = () => {
   return (
-    <div className="bg-black py-12 px-4">
+    <div className="bg-background 
+dark:bg-background-dark
+     py-12 px-4">
       {/* <div className="max-w-6xl mx-auto text-center">
         <h2 className="text-4xl font-bold text-[#473bf0] mb-10">
           Recent Blogs
@@ -69,7 +71,7 @@ const RecentBlogs = () => {
       </div> */}
 
       <div className="mt-16 bg-gradient-to-r from-[#473bf0] to-purple-700 text-white py-10 px-8 rounded-lg text-center shadow-xl max-w-6xl mx-auto relative overflow-hidden">
-        <div className="absolute top-0 left-0 w-full h-full bg-black bg-opacity-30"></div>
+        <div className="absolute top-0 left-0 w-full h-full bg-background bg-opacity-30"></div>
         <div className="relative z-10 flex flex-col md:flex-row items-center gap-8">
           <img
             src="/teamimage.png"
@@ -85,7 +87,7 @@ const RecentBlogs = () => {
             </p>
             <button
               onClick={handleClick}
-              className="px-5 py-2 bg-white text-[#473bf0] text-lg font-bold rounded-lg shadow-md hover:bg-gray-100 transition"
+              className="px-5 py-2 bg-[#ffd700] text-[#473bf0] text-lg font-bold rounded-lg shadow-md hover:bg-[#ffd700] transition"
             >
               Set Up A Call →
             </button>

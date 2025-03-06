@@ -23,7 +23,7 @@ const Awards = () => {
             Recognized for providing top technological support and cutting-edge
             solutions in mobile app development.
           </p>
-          <button className="mt-5 px-5 py-2 text-sm font-medium rounded-lg bg-[#ffd700] text-black hover:bg-[#ffd700]">
+          <button className="mt-5 px-5 py-2 text-sm font-medium rounded-lg bg-[#50c878] text-black hover:bg-[#50c878]">
             Learn More →
           </button>
         </div>
