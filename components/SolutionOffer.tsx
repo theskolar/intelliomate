@@ -8,18 +8,11 @@ export default function SolutionsWeOffer() {
       iconColor: "bg-red-600",
     },
     {
-      title: "Agriculture",
+      title: "Waste & Recycling",
       description:
         "GPS tracking finds use in agriculture for field management, equipment monitoring, and machinery route optimization. Our technologies provide exact resource monitoring, therefore guaranteeing more effective agricultural practices.",
-      icon: "/culture.png",
-      iconColor: "bg-green-700",
-    },
-    {
-      title: "FMCGS",
-      description:
-        "GPS tracking app development helps the FMCG industry guarantee timely delivery, enhance inventory control, and provide a real-time supply chain view. Increase logistics' effectiveness and reduce delays.",
-      icon: "/industry.png",
-      iconColor: "bg-yellow-600",
+      icon: "/recycle.png",
+      iconColor: "bg-yellow-500",
     },
     {
       title: "Passenger Transport",
@@ -29,11 +22,18 @@ export default function SolutionsWeOffer() {
       iconColor: "bg-teal-600",
     },
     {
-      title: "Waste & Recycling",
+      title: "FMCGS",
       description:
-        "GPS tracking finds use in agriculture for field management, equipment monitoring, and machinery route optimization. Our technologies provide exact resource monitoring, therefore guaranteeing more effective agricultural practices.",
-      icon: "/recycle.png",
-      iconColor: "bg-yellow-500",
+        "GPS tracking app development helps the FMCG industry guarantee timely delivery, enhance inventory control, and provide a real-time supply chain view. Increase logistics' effectiveness and reduce delays.",
+      icon: "/industry.png",
+      iconColor: "bg-yellow-600",
+    },
+    {
+      title: "Sports",
+      description:
+        "In sports, our Tracking App Development systems provide athletes with route tracking, real-time performance monitoring, and data analysis. With our tailored solutions, we monitor development and increase training effectiveness.",
+      icon: "/sport.png",
+      iconColor: "bg-pink-600",
     },
     {
       title: "Financial Institutions",
@@ -43,18 +43,18 @@ export default function SolutionsWeOffer() {
       iconColor: "bg-blue-700",
     },
     {
+      title: "Agriculture",
+      description:
+        "GPS tracking finds use in agriculture for field management, equipment monitoring, and machinery route optimization. Our technologies provide exact resource monitoring, therefore guaranteeing more effective agricultural practices.",
+      icon: "/culture.png",
+      iconColor: "bg-green-700",
+    },
+    {
       title: "Forestry & Wildlife",
       description:
         "Our forestry and wildlife GPS tracking systems software provide real-time data collecting, location monitoring for animal protection, and management of forests, therefore supporting environmental sustainability.",
       icon: "/wildlife.png",
       iconColor: "bg-purple-700",
-    },
-    {
-      title: "Sports",
-      description:
-        "In sports, our Tracking App Development systems provide athletes with route tracking, real-time performance monitoring, and data analysis. With our tailored solutions, we monitor development and increase training effectiveness.",
-      icon: "/sport.png",
-      iconColor: "bg-pink-600",
     },
   ];
 

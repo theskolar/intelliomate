@@ -63,6 +63,6 @@
     @apply border-border;
   }
   body {
-    background-color: #ff0000; /* Directly apply red background */
+    background-color: #ffffff; /* Directly apply red background */
   }
 }

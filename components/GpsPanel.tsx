@@ -15,7 +15,7 @@ dark:text-boxfont-dark
           Unique <span style={{color:'#50c878'}}> GPS Tracking</span> Software Panels
         </h2>
         <p className="text-center text-font font-poppins fontt-[400] mb-6">
-          A good Grocery App Development company depends on the integration of
+          A good GPS Tracking App Development company depends on the integration of
           necessary panels serving various user functions.
         </p>
 
@@ -107,7 +107,7 @@ dark:bg-background-dark
           </div>
         )}
       </div>
-      <div className="max-w-5xl mx-auto p-6">
+      {/* <div className="max-w-5xl mx-auto p-6">
         <h2 className="mb-6 text-center text-[2rem]  font-[500]   font-Poppins text-boxfont 
 dark:text-boxfont-dark
         ">
@@ -171,7 +171,7 @@ dark:text-boxfont-dark
             </p>
           </div>
         </div>
-      </div>
+      </div> */}
     </div>
   );
 }

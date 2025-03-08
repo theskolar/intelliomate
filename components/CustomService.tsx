@@ -1,16 +1,16 @@
-export default function GPSTrackingServices() {
+export default function GPSTrackingServices () {
   const services = [
-    {
-      title: "Geo-tagging & Geo-location",
-      description:
-        "With accurate geo-tagging and geo-location tools provided by our GPS tracking software development team, companies can monitor staff members or assets in real-time. This On-demand app development function offers increased precision for location-based services, raising general efficiency.",
-      icon: "📍",
-    },
     {
       title: "Real-Time Location",
       description:
         "Our GPS app developers expertise in real-time location monitoring so companies can quickly check staff members, tools, and cars. Real-time location updates provide better control over operations for fleet management or asset monitoring.",
       icon: "📡",
+    },
+    {
+      title: "Trips History",
+      description:
+        "Our software tracking tips tool lets you save journey history and provide comprehensive route, travel, and vehicle performance reports. You can choose Driving Apps To Make Money as a viable option that uses such features to assure maximum performance, and raise responsibility.",
+      icon: "🛣️",
     },
     {
       title: "Fleet Management",
@@ -25,10 +25,10 @@ export default function GPSTrackingServices() {
       icon: "🔒",
     },
     {
-      title: "Trips History",
+      title: "Geo-tagging & Geo-location",
       description:
-        "Our software tracking tips tool lets you save journey history and provide comprehensive route, travel, and vehicle performance reports. You can choose Driving Apps To Make Money as a viable option that uses such features to assure maximum performance, and raise responsibility.",
-      icon: "🛣️",
+        "With accurate geo-tagging and geo-location tools provided by our GPS tracking software development team, companies can monitor staff members or assets in real-time. This On-demand app development function offers increased precision for location-based services, raising general efficiency.",
+      icon: "📍",
     },
     {
       title: "Driver Behavior Monitoring",
@@ -45,7 +45,7 @@ export default function GPSTrackingServices() {
           Our Custom  <span style={{ color: '#50c878' }}>GPS Tracking App </span>Development Services
         </h2>
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-3 gap-6">
-          {services.map((service, index) => (
+          {services.map( ( service, index ) => (
             <div
               key={index}
               className="bg-box shadow-md rounded-lg p-6 text-center shadow-[0_0_8px_#473bf0]"
@@ -56,7 +56,7 @@ export default function GPSTrackingServices() {
               </h3>
               <p className="text-font  font-[400] font-poppins text-sm">{service.description}</p>
             </div>
-          ))}
+          ) )}
         </div>
       </div>
     </div>

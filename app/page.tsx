@@ -1,9 +1,3 @@
-import Image from "next/image";
-import Link from "next/link";
-import { MessageSquare } from "lucide-react";
-import { Button } from "@/components/ui/button";
-import { MainNav } from "./main-nav";
-import TopBar from "@/components/TopBar";
 import GpsTracking from "@/components/GpsTracking";
 import BoostSuccess from "@/components/BoostSuccess";
 
@@ -17,11 +11,11 @@ import GpsTrackingPanels from "@/components/GpsPanel";
 import SolutionsWeOffer from "@/components/SolutionOffer";
 import FAQSection from "@/components/Faq";
 import TestimonialCarousel from "@/components/TestimonialCarousel";
-import Awards from "@/components/Award";
+import ContactUs from "@/components/ContactUs";
 import RecentBlogs from "@/components/RecentBlogs";
 import Footer from "@/components/Footer";
 
-export default function Page() {
+export default function Page () {
   return (
     <div className="min-h-screen bg-slate-900">
       {/* <TopBar /> */}
@@ -34,7 +28,8 @@ export default function Page() {
       <GpsTracking />
 
       {/* Content Section */}
-      <BoostSuccess />
+      {/* <BoostSuccess /> */}
+
       <GPSTrackingServices />
 
       <GPSSoftwareDevelopment />
@@ -53,9 +48,12 @@ export default function Page() {
 
       {/* <TestimonialCarousel /> */}
 
-      {/* <Awards /> */}
+      {/* <ContactUs /> */}
 
-      <RecentBlogs />
+      {/* <RecentBlogs /> */}
+
+      {/* Contact Us Section */}
+      <ContactUs />
 
       <Footer />
     </div>

@@ -1,4 +1,4 @@
-export default function GPSTechnologies() {
+export default function GPSTechnologies () {
   const categories = [
     {
       title: "IOS App Development",
@@ -45,20 +45,6 @@ export default function GPSTechnologies() {
   ];
   const costDetails = [
     {
-      title: "GPS Tracking Software Development Cost",
-      description:
-        "The intricacy of features, platform, and customization determines the cost of creating GPS tracking system software. While more sophisticated solutions with advanced features like real-time monitoring, artificial intelligence integration, and cloud support might cost $50,000 or more, a simple app can run anywhere from $10,000 to $30,000.",
-      icon: "map.png",
-      bgColor: "bg-box",
-    },
-    // {
-    //   title: "Cost to Hire GPS Tracking Software Developers",
-    //   description:
-    //     "Hiring committed GPS monitoring software engineers usually pays between $50 and $150 per hour, depending on their location and degree of experience. Project length and degree of complexity affect this cost.",
-    //   icon: "hired.png",
-    //   bgColor: "bg-[#f3f4f6]",
-    // },
-    {
       title: "GPS Tracking Software Maintenance Cost",
       description:
         "Software maintenance is vital for GPS tracker system software upgrades, bug repairs, and performance enhancement after release. Depending on the complexity of the software and continuous support requirements, maintenance expenses could vary from 15% to 25% of the yearly total development cost.",
@@ -72,13 +58,20 @@ export default function GPSTechnologies() {
       icon: "uxuicost.png",
       bgColor: "bg-box",
     },
+    {
+      title: "GPS Tracking Software Development Cost",
+      description:
+        "The intricacy of features, platform, and customization determines the cost of creating GPS tracking system software. While more sophisticated solutions with advanced features like real-time monitoring, artificial intelligence integration, and cloud support might cost $50,000 or more, a simple app can run anywhere from $10,000 to $30,000.",
+      icon: "map.png",
+      bgColor: "bg-box",
+    },
   ];
 
   return (
     <div className="w-full bg-background 
 dark:bg-background-dark
     ">
-      <div className="max-w-5xl mx-auto text-center py-10 px-6 sm:px-8">
+      {/* <div className="max-w-5xl mx-auto text-center py-10 px-6 sm:px-8">
         <h2 className="mb-6 text-center text-[2rem]  font-[500]   font-Poppins text-boxfont 
 dark:text-boxfont-dark
         ">
@@ -117,7 +110,7 @@ dark:text-boxfont-dark
             </div>
           ))}
         </div>
-      </div>
+      </div> */}
 
       <div className="max-w-5xl mx-auto text-center py-10 px-6 sm:px-8 md:px-10 lg:px-12">
         <h2 className="mb-6 text-center text-[2rem]   font-[500]  font-Poppins text-boxfont
@@ -135,20 +128,20 @@ dark:text-boxfont-dark
           coexist together.
         </p>
         <div className="mt-6 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
-          {costDetails.map((cost, index) => (
+          {costDetails.map( ( cost, index ) => (
             <div
               key={index}
-              className={`p-4 rounded-lg shadow-md ${cost.bgColor}`}
+              className={`p-4 rounded-lg shadow-md ${ cost.bgColor }`}
             >
               <div className="flex flex-col items-center text-center">
                 <div className="flex justify-center">
                   <img
-                    src={`/${cost.icon}`}
+                    src={`/${ cost.icon }`}
                     alt={cost.title}
                     className="w-10 h-10"
                   />
                 </div>
-                <h3 className="text-lg  text-box3 font-[400] font-poppins text-justify max-w-[80%]">
+                <h3 className="text-lg  text-box3 font-[400] font-poppins text-center max-w-[80%]">
                   {cost.title}
                 </h3>
                 <p className="text-font text-sm mt-2 font-[400] font-poppins text-justify max-w-[80%]">
@@ -157,7 +150,7 @@ dark:text-boxfont-dark
               </div>
 
             </div>
-          ))}
+          ) )}
         </div>
       </div>
     </div>

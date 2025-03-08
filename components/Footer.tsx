@@ -105,7 +105,7 @@ dark:text-boxfont-dark
           <p className="text-sm text-font
 dark:text-boxfont-dark
           ">
-            © {new Date().getFullYear()} Telephonica Interactive Media Services.
+            © {new Date().getFullYear()} intelliomate
             All rights reserved.
           </p>
         </div>

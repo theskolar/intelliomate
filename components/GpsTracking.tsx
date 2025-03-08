@@ -3,11 +3,6 @@ import React from "react";
 import { Button } from "./ui/button";
 
 const GpsTracking = () => {
-  const handleClick = () => {
-    // Replace with the phone number you want to call
-    const phoneNumber = "ind:+919582929292";
-    window.location.href = phoneNumber;
-  };
   return (
     <section
       className="relative overflow-hidden py-20 p-4 bg-background dark:bg-background-dark bg-none sm:bg-[url('/gpsmain.png')] sm:bg-no-repeat sm:bg-auto sm:bg-[550px] sm:bg-right-center"
@@ -28,12 +23,19 @@ const GpsTracking = () => {
             </p>
             <div className="flex flex-wrap gap-4">
               <Button
-                onClick={handleClick}
+                // onClick={handleClick}
                 variant="outline"
                 size="lg"
                 className="min-w-[140px] bg-[#ffd700] text-white hover:bg-[#ffd700]"
               >
-                Call now
+                <a
+                  href="tel:+919582929292"
+                  className="text-font transition duration-300
+dark:text-boxfont-dark
+                  "
+                >
+                  Call now
+                </a>
               </Button>
             </div>
           </div>
