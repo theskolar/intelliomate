@@ -42,7 +42,7 @@ export default function FAQSection() {
 dark:bg-background-dark
     ">
       <div className="max-w-2xl w-full">
-        <h2 className="mb-6 text-center text-[2rem] font-bold font-Poppins text-boxfont
+        <h2 className="mb-6 text-center text-[2rem]  font-Poppins text-boxfont
 dark:text-boxfont-dark
           font-[400] font-poppins">
           Frequently Asked <span style={{color:'#50c878'}}> Questions</span>
@@ -54,7 +54,7 @@ dark:text-boxfont-dark
                 onClick={() => toggleFAQ(index)}
                 className="flex justify-between w-full text-left items-center py-3 text-lg font-medium text-boxfont 
 dark:text-boxfont-dark
-                  font-[400] font-poppins transition-all duration-300 focus:outline-none"
+                 font-poppins transition-all duration-300 focus:outline-none"
               >
                 {faq.question}
                 <ChevronDown

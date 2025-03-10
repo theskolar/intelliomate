@@ -23,19 +23,19 @@ dark:bg-background-dark
 
           {/* Column 2: Services */}
           <div className="space-y-4">
-            <h3 className="text-lg font-semibold">Services</h3>
+            <h3 className="text-lg font-semibold
+            dark:text-boxfont-dark">Services</h3>
             <ul className="space-y-2">
               <li>
                 <a className="text-font 
 dark:text-boxfont-dark
-                 hover:text-white transition duration-300">
+                 hover:text-font">
                   UI/UX Designing
                 </a>
               </li>
               <li>
-                <a className="text-font hover:text-white
-dark:text-boxfont-dark
-                 transition duration-300">
+                <a className="text-font hover:text-font
+dark:text-boxfont-dark">
                   Mobile App Development
                 </a>
               </li>
@@ -58,7 +58,7 @@ dark:text-boxfont-dark
 
           {/* Column 3: Offices */}
           <div className="space-y-4">
-            <h3 className="text-lg font-semibold">Our Office</h3>
+            <h3 className="text-lg font-semibold dark:text-boxfont-dark">Our Office</h3>
             <ul className="space-y-2">
               <li>
                 <a className="text-font 
@@ -72,7 +72,7 @@ dark:text-boxfont-dark
 
           {/* Column 4: Get in Touch */}
           <div className="space-y-4">
-            <h3 className="text-lg font-semibold">Get in Touch</h3>
+            <h3 className="text-lg font-semibold dark:text-boxfont-dark">Get in Touch</h3>
             <ul className="space-y-2">
               <li>
                 <a

@@ -42,9 +42,9 @@ dark:text-boxfont-dark
 dark:bg-background-dark
           ">
             <img
-              src="/user-panel.webp"
+              src="/userpanel.jpg"
               alt="GPS Tracking"
-              className="w-48 h-auto rounded-lg shadow-md "
+              className="w-48 h-auto rounded-lg shadow-md"
             />
             <div className="md:ml-6 mt-4 md:mt-0 text-center md:text-left">
               <h3 className="text-2xl font-semibold text-[#50c878] font-[500] font-poppins">
@@ -66,7 +66,7 @@ dark:bg-background-dark
 dark:bg-background-dark
           ">
             <img
-              src="/driver-panel.webp"
+              src="/drivelpanel.jpg"
               alt="Driver Panel"
               className="w-48 h-auto rounded-lg shadow-md border border-gray-300"
             />
@@ -89,7 +89,7 @@ dark:bg-background-dark
 dark:bg-background-dark
           ">
             <img
-              src="/admin-panel.webp"
+              src="/adminpanel.jpg"
               alt="Admin Panel"
               className="w-48 h-auto rounded-lg shadow-md border border-gray-300"
             />
